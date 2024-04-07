@@ -42,7 +42,7 @@ $data = json_decode($result, true);
     </section>
     
     <hgroup>
-        <h3> <?= $data["title"]?> se estrena en <?= $data["days_until"] ?> dias </h3>
+        <h3> <?= $data["title"]?> se estrena en <?= $data["days_until"] ?> días </h3>
         <p>Fecha de estreno es: <?= $data["release_date"] ?> </p>
         <p>La siguente es: <?= $data["following_production"]["title"] ?> </p>
     </hgroup>
