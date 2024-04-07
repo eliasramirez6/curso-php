@@ -53,10 +53,10 @@ $data = json_decode($result, true);
         color-scheme: light dark;
     }
 
-    body {
+    /* body {
         display: grid;
         place-content: center;
-    }
+    } */
 
     section {
         display: flex;
